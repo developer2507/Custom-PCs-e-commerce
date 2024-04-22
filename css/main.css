@@ -1,0 +1,304 @@
+/* HEADER */
+
+body{
+    background-color: black;
+}
+
+.nav-bg{
+    background-color: #242424;
+}
+
+.navbar{
+    padding-bottom: 0px;
+}
+
+.nav-item{
+    font-size: 20px;
+}
+
+.nav-item a{
+    color: white;
+}
+
+.nav-item a:hover{
+    color: #c70b09;
+}
+
+.fa-shopping-cart:hover{
+    color: #c70b09;
+}
+
+.fa-user:hover{
+    color: #c70b09;
+}
+
+.fa-shopping-cart{
+    color: white;
+    font-size: 20px;
+}
+
+.fa-user{
+    color: white;
+    font-size: 20px;
+}
+
+.fa-bars{
+    color: white;
+}
+
+/* ABOUT US */
+
+.about-us{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.about-us-desc{
+    width: 425px;
+    color: white;
+}
+
+.about-us-title{
+    color: white;
+}
+
+/* CUSTOM PC */
+
+.custom-pc{
+    margin-bottom: 100px;
+    margin-top: 100px;
+    background-color: #242424;
+    padding: 100px;
+}
+
+.c-pc-title{
+    color: white;
+    text-align: center;
+}
+
+.c-pc-btn{
+    margin-top: 30px;
+    color: white;
+    background-color: #c70b09;
+    font-size: 25px;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+.c-pc-btn:hover{
+    background-color: #820a09;
+    transition: 0.3s;
+}
+
+/* READY PCs */
+
+.ready-pc{
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.view-details{
+    padding-top: 15px;
+    color: #c70b09;
+}
+
+.ready-price{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.ready-pc-title{
+    margin-bottom: 70px;
+}
+
+.card-content{
+    margin-top: 30px;
+    /* padding-left: 30px; */
+}
+
+.btn-danger{
+    background-color: #940b0b;
+}
+
+/* FOOTER */
+
+.footer-bg{
+    background-color: #242424;
+}
+
+
+/* PRODUCT DETAILS */
+
+.product-card{
+    background: rgba(22, 24, 31, 0.89);
+    min-width: 30%;
+    margin: 15px 0;
+}
+
+.product-card-height{
+    min-height: 210px;
+}
+
+.details-row{
+    padding: 0 10px;
+}
+
+.name-of-product{
+    font-size: 45px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.product-section{
+    margin: 100px 0 ;
+}
+
+/* ABOUT US PAGE */
+
+.why-us{
+    padding: 100px 0;
+    background-color: #242424;
+}
+
+/* CUSTOM PCs */
+
+.accordion-button{
+    background-color: #242424!important;
+    color: white!important;
+}
+
+.accordion-item{
+    background-color: #242424;
+    color: white!important;
+}
+
+
+.ul-pc {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+  }
+  
+  .li-pc {
+    display: block;
+  }
+  
+  input[type="radio"][id^="cb"] {
+    display: none;
+  }
+  
+  .label-pc {
+    border: 1px solid #fff;
+    padding: 10px;
+    display: block;
+    position: relative;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .label-pc:before {
+    background-color: white;
+    color: white;
+    content: " ";
+    display: block;
+    border-radius: 50%;
+    border: 1px solid grey;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 28px;
+    transition-duration: 0.4s;
+    transform: scale(0);
+  }
+  
+  .label-pc img {
+    height: 100px;
+    width: 100px;
+    transition-duration: 0.2s;
+    transform-origin: 50% 50%;
+  }
+  
+  :checked + .label-pc {
+    border-color: #ddd;
+  }
+  
+  :checked + .label-pc:before {
+    content: "✓";
+    background-color: grey;
+    transform: scale(1);
+  }
+  
+  :checked + .label-pc img {
+    transform: scale(0.9);
+    box-shadow: 0 0 5px #333;
+    z-index: -1;
+  }
+
+/* LOGIN PAGE  */
+
+.login-btn{
+    background-color:#c70b09;
+    color: white!important;
+}
+
+.login-btn:hover{
+    background-color:#940b0b;
+}
+
+/* SHOPPING CARD PAGE */
+
+.fa-trash-alt:hover{
+    color: red;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 767px) {
+    .product-card-height {
+      min-height: 100px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .d-none-small {
+      display: block!important;
+      justify-content: center!important;
+    }
+
+    .media-margin-t{
+        margin-top: 50px;
+    }
+
+    .media-text-center{
+        text-align: center;
+    }
+
+    .about-us-desc{
+        width: auto;
+    }
+}
+
+
+/* HELPERS */
+
+.color-white{
+    color: white;
+}
+
+.color-white-imp{
+    color: white!important;
+}
+
+.hover-red:hover{
+    color: #c70b09;
+}
+
+.hover-red-imp:hover{
+    color: #c70b09!important;
+}
+

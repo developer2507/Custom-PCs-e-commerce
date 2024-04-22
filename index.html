@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+    <!-- Google Fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
+     <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+            <!-- Container wrapper -->
+            <div class="container-fluid nav-bg" style="min-height: 70px;">
+            <!-- Toggle button -->
+            <button
+                data-mdb-collapse-init
+                class="navbar-toggler"
+                type="button"
+                data-mdb-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <i class="fas fa-bars"></i>
+            </button>
+        
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Navbar brand -->
+                <a class="navbar-brand mt-2 mt-lg-0" href="index.html">
+                <img
+                    src="img/logo.png"
+                    height="60"
+                    alt="Logo"
+                    loading="lazy"
+                />
+                </a>
+                <!-- Left links -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="custom.html">Custom PC</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ready-pcs.html">Ready PCs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-us.html">About US</a>
+                    </li>
+                </ul>
+                <!-- Left links -->
+            </div>
+            <!-- Collapsible wrapper -->
+        
+            <!-- Right elements -->
+            <div class="d-flex align-items-center">
+                <!-- Account -->
+                <a class="text-reset me-3" href="login.html">
+                    <i class="fas fa-user"></i>
+                    </a>
+                
+                <!-- Icon -->
+                <a class="text-reset me-3" href="shopping-card.html">
+                <i class="fas fa-shopping-cart"></i>
+                </a>
+        
+                
+                <!-- Avatar -->
+                <div class="dropdown">
+                <a
+                    data-mdb-dropdown-init
+                    class="dropdown-toggle d-flex align-items-center hidden-arrow"
+                    href="#"
+                    id="navbarDropdownMenuAvatar"
+                    role="button"
+                    aria-expanded="false"
+                >
+                    <img
+                    src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                    class="rounded-circle"
+                    height="25"
+                    alt="Black and White Portrait of a Man"
+                    loading="lazy"
+                    />
+                </a>
+                <ul
+                    class="dropdown-menu dropdown-menu-end"
+                    aria-labelledby="navbarDropdownMenuAvatar"
+                >
+                    
+                    <li>
+                        <a class="dropdown-item" href="account.html">My profile</a>
+                    </li>
+                    <li>
+                        <form action="" method="post">
+                            <input type="submit" class="dropdown-item" value="Logout">
+                        </form>
+                    </li>
+                </ul>
+                </div>
+            </div>
+            <!-- Right elements -->
+            </div>
+            <!-- Container wrapper -->
+        </nav>
+        <!-- Navbar -->
+    
+    
+        <!-- Background image -->
+        <div
+            class="p-5 text-center bg-image"
+            style="
+            background-image: url('https://www.pcspecialist.pl/images/landing/pcs/gaming-pc-bundles/bundles-visual.jpg');
+            height: 630px;
+            "
+        >
+            <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+            <div class="d-flex justify-content-center align-items-center h-100">
+                <div class="text-white">
+                <h1 class="mb-3">Heading</h1>
+                <h4 class="mb-3">Subheading</h4>
+                <a data-mdb-ripple-init class="btn btn-outline-light btn-lg" href="#!" role="button"
+                >Call to action</a
+                >
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- Background image -->
+    </header>
+
+
+    <section class="about-us">
+        <div class="container">
+            <div class="d-flex justify-content-center" style="margin-bottom: 50px; color: white;"><h2>About Us</h2></div>
+            <div class="d-flex justify-content-around d-none-small align-items-center">
+                <div class="media-text-center">
+                    <img
+                        src="https://static.cybertron.com/clx/home/pcs-laps-section/custom-gaming-pcs.jpg"
+                        class="img-fluid shadow-2-strong"
+                        alt="Palm Springs Road"
+                        height="100"
+                        />
+                </div>
+                <div class="media-margin-t media-text-center">
+                    <h3 class="about-us-title">Lorem Ipsun</h3>
+                    <p class="about-us-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum fuga error incidunt non facere recusandae tempore aspernatur laborum iusto praesentium impedit molestias, quaerat voluptatibus inventore hic. Ratione nemo beatae deleniti.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="custom-pc">
+        <div class="container">
+            <div>
+                <h2 class="c-pc-title">Order Your Custom PC</h2>
+            </div>
+            <div class="d-flex justify-content-center">
+                <a href="custom.html"><button class="c-pc-btn">Custom PC</button></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="ready-pc">
+        <div class="container">
+            <div class="d-flex justify-content-center">
+                <h2 class="color-white ready-pc-title">Ready PCs</h2>
+            </div>
+            <div style="margin-bottom: 20px;"><a href="ready-pcs.html" style="font-size: 35px; color: #940b0b;">View More</a></div>
+            <div class="d-flex justify-content-around flex-wrap ">
+                <div class="card-content" style="width: 300px;">
+                    <div class="card" style="background-color: #242424;">
+                        <div class="bg-image hover-overlay d-flex justify-content-center" data-mdb-ripple-init data-mdb-ripple-color="light">
+                          <img src="https://www.pcspecialist.pl/images/landing/pcs/challenge-pcs/pcs-vs3.png" style="height: 250px;" class="img-fluid"/>
+                          <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                          </a>
+                        </div>
+                        <div class="card-body">
+                          <div class="d-flex justify-content-center"><h5 class="card-title color-white">Card title</h5></div>
+                          <p class="card-text color-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <div class="d-flex justify-content-center"><p class="card-text color-white ready-price"> 8500PLN</p></div>
+                          <div class="d-flex justify-content-center">
+                            <form action="" method="post">
+                                <input type="hidden">
+                                <input type="submit" class="btn btn-danger" data-mdb-ripple-init value="ADD TO CARD">
+                            </form>
+                        </div>
+                          <div class="d-flex justify-content-center"><a href="ready-product.html" class="p-t-15 view-details">View Details</a></div>
+                        </div>
+                      </div>
+                </div>
+    
+                <div class="card-content" style="width: 300px;">
+                    <div class="card" style="background-color: #242424;">
+                        <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+                          <img src="https://imageio.forbes.com/specials-images/imageserve/639a37602d7842b8e3303065/Hathor/960x0.png?format=png&width=960" style="height: 250px;" class="img-fluid"/>
+                          <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                          </a>
+                        </div>
+                        <div class="card-body">
+                          <div class="d-flex justify-content-center"><h5 class="card-title color-white">Card title</h5></div>
+                          <p class="card-text color-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <div class="d-flex justify-content-center"><p class="card-text color-white ready-price"> 8500PLN</p></div>
+                          <div class="d-flex justify-content-center">
+                            <form action="" method="post">
+                                <input type="hidden">
+                                <input type="submit" class="btn btn-danger" data-mdb-ripple-init value="ADD TO CARD">
+                            </form>
+                        </div>
+                          <div class="d-flex justify-content-center"><a href="ready-product.html" class="p-t-15 view-details">View Details</a></div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="card-content" style="width: 300px;">
+                    <div class="card" style="background-color: #242424;">
+                        <div class="bg-image hover-overlay d-flex justify-content-center" data-mdb-ripple-init data-mdb-ripple-color="light">
+                          <img src="https://www.pcspecialist.pl/images/landing/pcs/challenge-pcs/pcs-vs3.png" style="height: 250px;" class="img-fluid"/>
+                          <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                          </a>
+                        </div>
+                        <div class="card-body">
+                          <div class="d-flex justify-content-center"><h5 class="card-title color-white">Card title</h5></div>
+                          <p class="card-text color-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <div class="d-flex justify-content-center"><p class="card-text color-white ready-price"> 8500PLN</p></div>
+                          <div class="d-flex justify-content-center">
+                            <form action="" method="post">
+                                <input type="hidden">
+                                <input type="submit" class="btn btn-danger" data-mdb-ripple-init value="ADD TO CARD">
+                            </form>
+                        </div>
+                          <div class="d-flex justify-content-center"><a href="ready-product.html" class="p-t-15 view-details">View Details</a></div>
+                        </div>
+                      </div>
+                </div>
+                
+                <div class="card-content" style="width: 300px;">
+                    <div class="card" style="background-color: #242424;">
+                        <div class="bg-image hover-overlay d-flex justify-content-center" data-mdb-ripple-init data-mdb-ripple-color="light">
+                          <img src="https://www.pcspecialist.pl/images/landing/pcs/challenge-pcs/pcs-vs3.png" style="height: 250px;" class="img-fluid"/>
+                          <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                          </a>
+                        </div>
+                        <div class="card-body">
+                          <div class="d-flex justify-content-center"><h5 class="card-title color-white">Card title</h5></div>
+                          <p class="card-text color-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <div class="d-flex justify-content-center"><p class="card-text color-white ready-price"> 8500PLN</p></div>
+                          <div class="d-flex justify-content-center">
+                            <form action="" method="post">
+                                <input type="hidden">
+                                <input type="submit" class="btn btn-danger" data-mdb-ripple-init value="ADD TO CARD">
+                            </form>
+                        </div>
+                          <div class="d-flex justify-content-center"><a href="ready-product.html" class="p-t-15 view-details">View Details</a></div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Footer -->
+<footer class="text-center text-lg-start footer-bg text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span class="color-white">Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab hover-red color-white fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab hover-red color-white fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab hover-red color-white fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab hover-red color-white fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab hover-red color-white fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab hover-red color-white fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4 color-white">
+              <i class="fas color-white fa-gem me-3"></i>Company name
+            </h6>
+            <p class="color-white">
+               Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4 color-white">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset hover-red-imp color-white-imp">Angular</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset hover-red-imp color-white-imp">React</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset hover-red-imp color-white-imp">Vue</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset hover-red-imp color-white-imp">Laravel</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4 color-white">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset hover-red-imp color-white-imp">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset hover-red-imp color-white-imp">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset hover-red-imp color-white-imp">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset hover-red-imp color-white-imp">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4 color-white">Contact</h6>
+            <p class="color-white"><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+            <p class="color-white">
+              <i class="fas fa-envelope me-3"></i>
+              info@example.com
+            </p>
+            <p class="color-white"><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+            <p class="color-white"><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4 color-white" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="https://anar-portfolio.netlify.app/">Anar Ismayilov</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.umd.min.js"></script>
+
+</body>
+</html>
